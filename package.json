@@ -1,6 +1,6 @@
 {
   "name": "react-datetime",
-  "version": "2.6.0",
+  "version": "2.6.2",
   "description": "A lightweight but complete datetime picker React.js component.",
   "homepage": "https://github.com/arqex/react-datetime",
   "repository": {
@@ -8,6 +8,13 @@
     "url": "https://github.com/arqex/react-datetime"
   },
   "main": "./DateTime.js",
+  "files": [
+    "DateTime.js",
+    "react-datetime.d.ts",
+    "src",
+    "css",
+    "dist"
+  ],
   "types": "./react-datetime.d.ts",
   "scripts": {
     "build:win": "./node_modules/.bin/gulp.cmd",
